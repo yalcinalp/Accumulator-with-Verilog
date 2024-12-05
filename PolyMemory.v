@@ -39,8 +39,6 @@ module lab4RAM (
 	input CLK, 
 	output reg [8:0] ramOutput);
 
-/*Write your code here*/
-
 reg[8:0] register[0:15];
 integer j;
 integer temp_arguman;
